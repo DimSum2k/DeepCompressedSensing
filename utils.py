@@ -40,7 +40,7 @@ def import_data(name, bs, plot=False, binary=False, normalize=True):
         real_batch, y = next(iter(train_loader))
         plt.figure(figsize=(8,8))
         plt.axis("off")
-        plt.title("Training Image Example: Fashion MNIST (10 classes)")
+        plt.title("Training Image Examples: Fashion MNIST (10 classes)")
         plt.imshow(np.transpose(make_grid(real_batch[:64], padding=2, normalize=True),(1,2,0)))
         plt.show()
         
