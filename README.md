@@ -7,7 +7,7 @@ To reduce the size of the notebook and for better readibility we split the core 
 - `lasso.py` contains lasso and Basis Pursuit codes for recovery
 - `vae.py` contains the codes for various VAE architectures
 - `gan.py` contains the GAN codes and `logger.py` contains helper functions to store GAN results
-- `cs.py` contains the codes for [Modeling Sparse Deviations for Compressed Sensing using Generative Models](https://arxiv.org/abs/1807.01442) ([repo](https://github.com/ermongroup/sparse_gen)) and [Compressed Sensing using Generative Models](https://arxiv.org/abs/1703.03208)
+- `cs.py` contains the codes for [Modeling Sparse Deviations for Compressed Sensing using Generative Models](https://arxiv.org/abs/1807.01442) and [Compressed Sensing using Generative Models](https://arxiv.org/abs/1703.03208)
 - `dcs.py` contains the codes for [Deep Compressed Sensing](https://arxiv.org/abs/1905.06723)
 
 Papers/ref:
